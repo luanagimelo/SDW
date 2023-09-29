@@ -11,4 +11,4 @@ for index, cat in df.iterrows():
     df.at[index, 'Color'] = cores
 
 'atualiza a planilha'
-df.to_csv('cats.csv', index=False)
+df.to_csv('cats_with_colors.csv', index=False)
